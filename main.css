@@ -73,3 +73,14 @@ section div{
     -o-border-redius : 5%;
     border-radius : 5%;
 }
+.S1{
+    float:left;
+    width: 50%;
+    height: 400px;
+    background-color: aqua;
+}
+.S2{
+    float: left
+    width: 50%;
+    height: 400px;
+}
