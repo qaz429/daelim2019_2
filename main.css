@@ -43,3 +43,33 @@ section div{
 
 
 }
+.image-cropper-50{
+    height:200px;
+    margin:15px;
+    width: 200px;
+    -webkit-border-redius: 50%;
+    -moz-border-radius : 50%;
+    -ms-border-redius : 50%;
+    -o-border-redius : 50%;
+    border-radius : 50%;
+}
+.image-cropper-25{
+    height:200px;
+    margin:15px;
+    width: 200px;
+    -webkit-border-redius: 25%;
+    -moz-border-radius : 25%;
+    -ms-border-redius : 25%;
+    -o-border-redius : 25%;
+    border-radius : 25%;
+}
+.image-cropper-5{
+    height:200px;
+    margin:15px;
+    width: 200px;
+    -webkit-border-redius: 5%;
+    -moz-border-radius : 5%;
+    -ms-border-redius : 5%;
+    -o-border-redius : 5%;
+    border-radius : 5%;
+}
