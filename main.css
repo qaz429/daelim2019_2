@@ -73,14 +73,21 @@ section div{
     -o-border-redius : 5%;
     border-radius : 5%;
 }
-.S1{
+.s1{
     float:left;
     width: 50%;
     height: 400px;
     background-color: aqua;
 }
-.S2{
-    float: left
+.s2{
+    float: left;
+    background-color: blueviolet;
     width: 50%;
     height: 400px;
+}
+.q{
+    background-color: rgb(241, 241, 62);
+}
+.aritcle-4rd-bg{
+    background-color: rgb(185, 241, 199);
 }
