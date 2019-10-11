@@ -3,6 +3,23 @@ main.css v0.1.0
 Update : 2019.09.27
 Aurthor : Sim.jaemin.
 */
+.ghost-button{ /*고스트버튼*/
+    /* display: inline-block;
+    position: relative; */
+    margin-top: 20px;
+    left:50%;
+    width:200px;
+    padding:8px;
+    color:#000000;
+    border: 1px solid rgb(12, 12, 12);
+    text-align:center;
+    outline:none;
+    text-decoration:none;
+}
+.ghost-button:hover{
+    background-color: blue;
+    cursor: default;
+}
 .full-bg{
     background: url(./images/african-lion-951778_640.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;

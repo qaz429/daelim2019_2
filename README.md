@@ -1,7 +1,7 @@
 # 심재민 : Dealim
 
 ## 2019.10.02
-10.11 : 수업 소메뉴 
+10.11 : 수업 소메뉴 , Ghost button
 
 ## 2019.10.02
 10.02 : 수업 폰트, https://www.w3schools.com/, https://fonts.google.com/
