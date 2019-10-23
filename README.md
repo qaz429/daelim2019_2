@@ -1,6 +1,7 @@
 # 심재민 : Dealim
 
-## 2019
+## 2019.10.23
+10.23 : dom_fault      target="_blink"   output, 1,inner  2,text
 
 ## 2019.10.11
 10.11 : 수업 소메뉴 , Ghost button
