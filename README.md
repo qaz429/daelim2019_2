@@ -1,7 +1,7 @@
 # 심재민 : Dealim
 
 ## 2019.10.25
-10.29 : dom_clock수정   jquery event !!
+1.edit jquery(j1 ~ j7) , event work
 
 ## 2019.10.23
 10.23 : dom_fault      target="_blink"   output, 1,inner  2,text
