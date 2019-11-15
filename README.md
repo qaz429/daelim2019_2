@@ -1,5 +1,8 @@
 # 심재민 : Dealim
 
+## 2019.11.15
+1.Bootstrap (button carousel collapse modal) 2.Navbar  
+
 ## 2019.11.08
 1.inffinity Scroll.html 2.slide 3.vegas video
 
