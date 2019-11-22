@@ -1,0 +1,216 @@
+/*
+main.css v0.1.0
+Update : 2019.09.27
+Aurthor : Sim.jaemin.
+*/
+.ghost-button{ /*고스트버튼*/
+    /* display: inline-block;
+    position: relative; */
+    margin-top: 20px;
+    left:50%;
+    width:200px;
+    padding:8px;
+    color:#000000;
+    border: 1px solid rgb(12, 12, 12);
+    text-align:center;
+    outline:none;
+    text-decoration:none;
+}
+.ghost-button:hover{
+    background-color: blue;
+    cursor: default;
+}
+.header-bg{
+    background: url(./images/african-lion-951778_640.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: table;
+}
+/*.nnnn :hover ul{
+    display:block;  
+}
+*/
+.menu{ /* 메인메뉴 css */
+    position: fixed;
+    top:0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.menu li:hover ul{
+    display:block; 
+}
+.menu li ul{
+    background: rgb(109,109,109);
+    display:none;  /* 평상시에는 서브메뉴가 안보이게 하기 */
+    height:auto;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    position:absolute;
+    width:200px;
+    z-index:1000;
+}
+.container{
+    display: table-cell;
+    text-align:center;
+    vertical-align: middle;
+}
+.header-title{
+    display: inline-block;
+    width:50%;
+    height: 140px;
+    font-size:35px;
+    font-weight:bold;
+    padding-top:25px;
+    background: rgba(11,0,73, .8);
+    color: #fff;
+}
+.header-sub-title{
+    font-size:20px;
+    color:rgb(185, 241, 199);
+
+}
+
+h1{
+
+    padding-left: 50%;
+    color: blue;
+}
+h3{ /* 9월20일실습 */
+    padding: 10;
+}
+
+ul{   /* 메뉴바탕 */
+    width: 100%;
+    margin: 0px;
+    
+    background: rgb(151, 243, 151);
+    
+    list-style: none;
+    
+}
+ul li{ /* 메뉴간격 */
+    float: left;
+    margin-right: 60px;
+    
+}
+ul li a { /* 메뉴 글꼴 크기 색깔 */
+  font-family: 'Gugi', cursive;
+  font-size: 50px;
+  color:rgb(256, 255, 255);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.aaaa{ /* 블록 */
+    padding-left: 50%;
+    padding: 0px;
+    float: left;
+    margin: 5px;
+    width : 50px;
+    height: 50px;
+    font-size: 24px;
+    border : 3px solid #000000;
+}
+.image-cropper-50{ /* 유트브링크 */
+    height:200px;
+    margin:15px;
+    width: 200px;
+    -webkit-border-redius: 50%;
+    -moz-border-radius : 50%;
+    -ms-border-redius : 50%;
+    -o-border-redius : 50%;
+    border-radius : 50%;
+}
+.image-cropper-25{ /* 유트브링크 */
+    height:200px;
+    margin:15px;
+    width: 200px;
+    -webkit-border-redius: 25%;
+    -moz-border-radius : 25%;
+    -ms-border-redius : 25%;
+    -o-border-redius : 25%;
+    border-radius : 25%;
+}
+.image-cropper-5{ /* 유트브링크 */
+    height:200px;
+    margin:15px;
+    width: 200px;
+    -webkit-border-redius: 5%;
+    -moz-border-radius : 5%;
+    -ms-border-redius : 5%;
+    -o-border-redius : 5%;
+    border-radius : 5%;
+}
+.s1{
+    float:left;
+    width: 50%;
+    height: 400px;
+    background-color: aqua;
+}
+.s2{
+    float: left;
+    background-color: blueviolet;
+    width: 50%;
+    height: 400px;
+}
+.q{ /* 테이블연습 */
+    background-color: rgb(241, 241, 62);
+}
+.aritcle-4rd-bg{ /* 유트브링크 */
+    background-color: rgb(185, 241, 199);
+}
+.aritcle-3rd-bg{ /* 오디오 */
+    background-color: rgb(184, 144, 236);
+}
+.article-2nd-bg{ /* 3개 사자이미지 */
+    
+    background-color: rgb(206, 48, 48);
+    color: rgb(255, 255, 255);
+    height: 300px;
+    padding: 15px;
+    text-align: center;
+}
+.grid-container {  /* 10월2일 테이블 */
+    display: grid;
+    grid-gap: 10px;
+    
+    background-color: rgb(169, 85, 218);
+    padding: 10px;
+}
+.grid-item { /* 10월2일 테이블 */
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.item1{ /* 10월2일 테이블 */
+    grid-column: 1/ span 3;
+    grid-row: 1;
+}
+.item2{ /* 10월2일 테이블 */
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+.item3{ /* 10월2일 테이블 */
+    grid-column: 3;
+    grid-row: 2 / span 2;
+}
+
+.item6{ /* 10월2일 테이블 */
+    grid-column: 2 / span 2;
+    grid-row:5;
+}
+footer{ /* 10월2일 아랫부분 */
+    height: 150px;
+    border: 5px solid rgb(58, 20, 231);
+    padding:50px;
+    font-family: 'Nanum Pen Script', cursive;
+
+}
