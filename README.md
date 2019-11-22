@@ -1,5 +1,10 @@
 # 심재민 : Dealim
 
+## 2019.11.22
+1.Portpolio
+2.https://github.com/pupunzi/jquery.mb.YTPlayer
+
+
 ## 2019.11.15
 1.Bootstrap (button carousel collapse modal) 2.Navbar  
 
