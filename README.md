@@ -1,5 +1,13 @@
 # 심재민 : Dealim
 
+## 2019.11.29
+1.table.php
+2.insert.php
+3.select.php
+4.main.php
+5.select.php (slecet.php 수정)
+6.select_result.php
+
 ## 2019.11.22
 1.Portpolio
 2.https://github.com/pupunzi/jquery.mb.YTPlayer

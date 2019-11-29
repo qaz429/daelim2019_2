@@ -1,0 +1,15 @@
+
+<?php
+$db_host = "localhost";
+$db_user = "qaz429";
+$db_password = "tntlark85200!";
+$db_name = "qaz429";
+$con = mysqli_connect($db_host, $db_user, $db_password, $db_name)
+if(mysqli_connect_error($con)){
+    echo "MySQL 접속실패 !!", "<BR>";
+    echo "오류 원인 : ", mysqli_connect_error();
+    exit();
+  }
+echo "MySQL 접속 완전히 성공!!";
+mysqli_close($con);
+?>
